@@ -1,0 +1,26 @@
+{
+  "name": "shareplate-ai",
+  "version": "1.0.0",
+  "description": "SharePlate AI: Smart Food Waste Redistribution Platform - Final Year Engineering Project",
+  "scripts": {
+    "start:backend": "node backend/server.js",
+    "start:ai": "python ai_engine/service.py",
+    "start:frontend": "npm run dev --prefix frontend",
+    "test:backend": "npm test --prefix backend",
+    "test:ai": "python ai_engine/tests/test_matcher.py",
+    "test": "npm run test:backend && npm run test:ai",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "food-waste-redistribution",
+    "ai-matching",
+    "data-engineering",
+    "cloud-engineering",
+    "security-engineering",
+    "scikit-learn",
+    "express",
+    "react"
+  ],
+  "author": "SharePlate AI Engineering Team",
+  "license": "MIT"
+}
